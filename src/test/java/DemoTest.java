@@ -8,7 +8,7 @@ public class DemoTest extends BaseTestCase {
     @Test
     public void demoRetryTest() {
 //        driver.get("https://www.amazon.in/");
-        assertThat(1).isEqualTo(2);
+        assertThat(1).isEqualTo(1);
     }
 
 }
