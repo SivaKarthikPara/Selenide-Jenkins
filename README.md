@@ -16,3 +16,10 @@ Selenide provides a concise API for using Selenium WebDriver in UI tests:
 * Convenience methods
 * Ajax support
 * Automated screenshots
+
+# Execution on jenkins
+![image](https://user-images.githubusercontent.com/56120741/198351541-65957e54-2506-449b-8955-7351320bd50c.png)
+
+![image](https://user-images.githubusercontent.com/56120741/198351711-6ed53403-053d-49f8-85e4-1df86e17cd0c.png)
+
+![image](https://user-images.githubusercontent.com/56120741/198351821-0bdf1afc-5b65-4ea9-b95b-05779d413701.png)
