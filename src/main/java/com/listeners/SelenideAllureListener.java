@@ -14,12 +14,12 @@ public class SelenideAllureListener extends ExitCodeListener {
     public void onStart(ITestContext context) {
         super.onStart(context);
         LOG.info("{} Test Execution started", context.getName());
-//        Configuration.browser = "com.utils.WebDriverManagerUtil";
-//        Configuration.reportsFolder = "target/test-reports";
-//        SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
-//                .screenshots(true)
-//                .savePageSource(true)
-//        );
+        Configuration.browser = "com.utils.WebDriverManagerUtil";
+        Configuration.reportsFolder = "target/test-reports";
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
+               .screenshots(true)
+               .savePageSource(true)
+        );
     }
 
     @Override
